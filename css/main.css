@@ -1,0 +1,49 @@
+/*NAVIGATION TOP */
+
+body { padding-top: 70px;
+}
+
+.navbar {
+  /* "Visions of Grandeur" Source: https://uigradients.com/#VisionsofGrandeur*/
+  background: #000046;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-toggle {
+  margin-top: 18px;
+}
+
+#brand {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 48px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: hsl(75, 100%, 95%);
+}
+
+#navbar-text li a {
+  color: hsl(75, 100%, 95%);
+}
+
+.navbar li {
+  padding-top: 25px;
+}
+
+.navbar-a {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  color: hsl(80, 100%, 78%);
+}
+
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:focus, .navbar-default .navbar-nav .active a:hover {
+  border-bottom: #4a4a4a 6px solid;
+  background-color: inherit;
+}
+
+.dropdown {
+  padding-right: 20px;
+}
