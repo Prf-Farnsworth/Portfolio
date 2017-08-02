@@ -116,3 +116,20 @@ a.left.carousel-control, a.right.carousel-control {
 span.glyphicon.glyphicon-envelope, span.glyphicon.glyphicon-pencil {
   font-size: 70px;
 }
+
+#github {
+  width: 100%;
+}
+
+#codePen {
+  width: 100%;
+}
+
+#freeCodeCamp {
+  width: 100%;
+  height: 100%;
+}
+
+#codeSchool {
+  width: 100%;
+}
