@@ -47,3 +47,10 @@ body { padding-top: 70px;
 .dropdown {
   padding-right: 20px;
 }
+
+/*===Carousel==*/
+
+.thumbnail iframe {
+  width: 1440px;
+  height: 900px;
+}
