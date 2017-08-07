@@ -2,10 +2,12 @@ body {
   position: relative;
   margin-top: 81px;
 }
+
 #myCarousel, #contact, #first-featurette, #second-featurette, #third-featurette {
-padding-top:91px;
-margin-top:-81px;
+  padding-top: 91px;
+  margin-top: -81px;
 }
+
 
 /*NAVIGATION TOP */
 
@@ -51,7 +53,7 @@ a.navbar-a:hover {
   background-color: inherit;
 }
 
-a.navbar-a:active{
+a.navbar-a:active {
   border-bottom: #4a4a4a 6px solid;
   background-color: inherit;
 }
@@ -59,13 +61,15 @@ a.navbar-a:active{
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   background-color: hsla(0, 0%, 20%, 0);
 }
+
 .dropdown {
   padding-right: 20px;
 }
 
 .dropdown-content {
-  color:#333 !important;
+  color: #333 !important;
 }
+
 
 /*===Carousel==*/
 
@@ -115,11 +119,13 @@ a.navbar-a:active{
   -webkit-transform: scale(2);
 }
 
+
 /*Carousel-Control */
 
 a.left.carousel-control, a.right.carousel-control {
   max-height: 515px;
 }
+
 
 /*===Contact-Area===*/
 
@@ -147,17 +153,18 @@ span.glyphicon.glyphicon-envelope, span.glyphicon.glyphicon-pencil {
 
 button.btn.btn-primary {
   width: 50%;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .contact-divider {
   display: none;
 }
+
+
 /*===MEDIAQUERIES===*/
 
 @media only screen and (max-width: 1200px) {
-
   .contact-divider {
-    display:block;
+    display: block;
   }
 }
