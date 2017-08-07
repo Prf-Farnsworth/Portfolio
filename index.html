@@ -25,7 +25,7 @@
 </head>
 <!--=====START=======-->
 
-<body>
+<body data-spy="scroll" data-target="#topof-the-page">
   <!--===NAVBAR===-->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -43,15 +43,15 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 container">
         <ul id="navbar-text" class="nav navbar-nav navbar-right">
-          <li class="active"><a class="navbar-a" href="#"><span class="glyphicon glyphicon-refresh"></span> Slide-Show <span class="sr-only">(current)</span></a></li>
-          <li><a class="navbar-a" href="#"><span class="glyphicon glyphicon-send"></span> Contact</a></li>
+          <li class="active"><a class="navbar-a" href="#myCarousel"><span class="glyphicon glyphicon-refresh"></span> Slide-Show <span class="sr-only">(current)</span></a></li>
+          <li><a class="navbar-a" href="#contact"><span class="glyphicon glyphicon-send"></span> Contact</a></li>
           <li class="dropdown navbar-a">
             <a href="#" class="dropdown-toggle navbar-a" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-content" href="#">Tribute Page</a></li>
-              <li><a class="dropdown-content" href="#">Portfolio</a></li>
+              <li><a class="dropdown-content" href="#first-featurette">Bookshelf</a></li>
+              <li><a class="dropdown-content" href="#second-featurette">Portfolio</a></li>
               <li role="separator" class="divider"></li>
-              <li><a class="dropdown-content" href="#">Bookshelf</a></li>
+              <li><a class="dropdown-content" href="#third-featurette">Tribute</a></li>
             </ul>
           </li>
         </ul>
@@ -125,7 +125,7 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row text-center">
+      <div id="contact" class="row text-center">
         <div class="col-lg-4">
           <img class="img-circle .img-responsive" src="images/Portrait.png" alt="Image of me" width="140" height="140">
           <h2>About Me</h2>
@@ -183,7 +183,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="first-featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">MY first f'n Bookshelf! <span class="text-muted">It'll blow your mind.</span></h2>
           <p class="lead">Now..there isn't a lot to talk about that right now. It was my first try and is currently only home to some minor css and responsive design features. But I will reboot it soon! Probably with Bootstap, or even Zurb Foundation! Check it out!</p>
@@ -203,7 +203,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="second-featurette">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Oh yeah! <span class="text-muted">Now that's just good HTML!</span></h2>
           <p class="lead">This is Site you're already watching! Wanna do something wierd? Click on the Image!</p>
@@ -223,7 +223,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="third-featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Tribute to Dr. Wiener <span class="text-muted">Inspirering!</span></h2>
           <p class="lead">Too few internet-affcionados know him, but he is not only the invoentor of cybernetics and a brilliant mathematician, but also the creator of computer ethics! Some all of you should think about!</p>
