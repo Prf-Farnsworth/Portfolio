@@ -126,43 +126,54 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
+      <div class="row text-center">
         <div class="col-lg-4">
           <img class="img-circle .img-responsive" src="images/Portrait.png" alt="Image of me" width="140" height="140">
           <h2>About Me</h2>
           <p>I am currently aspirering to be a Webdeveloper. Training on <a href="http://codeschool.com" target="blank">Codeschool</a>, as well as <a href="http://freeCodeCamp.org" target="blank">freeCodeCamp</a>! And with the help of my Friends!</p>
         </div>
-        <!-- /.col-lg-4 -->
+        <hr class="featurette-divider contact-divider">
         <div class="col-lg-4">
           <span class="glyphicon glyphicon-envelope"></span>
-          <h2>Contact Me On</h2>
+          <h2>Contact Me</h2>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-xs-6">
               <ul class="list-unstyled">
                 <li><a href="https://github.com/Prf-Farnsworth" target="_blank">
-                  <img id="github" class="contact-images .img-responsive" src="images/GitHub_Logo.png" alt="Github"></img>
+                  <img id="github" class="contact-images img-responsive" src="images/GitHub_Logo.png" alt="Github"></img>
                 </a></li>
                 <li><a href="https://codepen.io/prf-farnsworth/" target="_blank">
-                  <img id="codePen" class="contact-images .img-responsive" src="images/TryItOn-CodePen.svg" alt="CodePen"></img>
+                  <img id="codePen" class="contact-images img-responsive" src="images/TryItOn-CodePen.svg" alt="CodePen"></img>
                 </a></li>
               </ul>
             </div>
-            <div class="col-lg-6">
+            <div class="col-xs-6">
               <ul class="list-unstyled">
                 <li><a href="https://www.freecodecamp.org/prf-farnsworth" target="_blank">
-                  <img id="freeCodeCamp" class="contact-images .img-responsive" src="images/FreeCodeCamp_logo-rescaled.png" alt="FreeCodeCamp"></img>
+                  <img id="freeCodeCamp" class="contact-images img-responsive" src="images/FreeCodeCamp_logo-rescaled.png" alt="FreeCodeCamp"></img>
                 </a></li>
                 <li><a href="https://www.codeschool.com/users/DrZoidberg2033" target="_blank">
-                  <img id="codeSchool" class="contact-images .img-responsive" src="images/logo-code-school-ps-af6d2dac2b8f78566e48a0e451a9233894464e64927376b87d88402aebb76803.svg" alt="CodeSchool"></img>
+                  <img id="codeSchool" class="contact-images img-responsive" src="images/logo-code-school-ps-af6d2dac2b8f78566e48a0e451a9233894464e64927376b87d88402aebb76803.svg" alt="CodeSchool"></img>
                 </a></li>
               </ul>
             </div>
           </div>
         </div>
+        <hr class="featurette-divider contact-divider">
         <div class="col-lg-4">
           <span class="glyphicon glyphicon-pencil"></span>
           <h2>Or Write Me Directly</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <form>
+            <div class="form-group">
+              <label for="client-email">Email address</label>
+              <input type="email" class="form-control" id="client-email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="client-message">Your Message</label>
+              <textarea rows="3" class="form-control" id="client-message" placeholder="Your Message goes here:"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
         <!-- /.col-lg-4 -->
       </div>
