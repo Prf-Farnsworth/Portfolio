@@ -1,8 +1,11 @@
 body {
   position: relative;
-  padding-top: 81px;
+  margin-top: 81px;
 }
-
+#myCarousel, #contact, #first-featurette, #second-featurette, #third-featurette {
+padding-top:91px;
+margin-top:-81px;
+}
 
 /*NAVIGATION TOP */
 
@@ -40,13 +43,22 @@ body {
   font-family: 'Comfortaa', cursive;
   font-weight: bold;
   color: hsl(80, 100%, 78%);
+  border-bottom: hsla(0, 0%, 20%, 0) 6px solid;
 }
 
-.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:focus, .navbar-default .navbar-nav .active a:hover {
+a.navbar-a:hover {
   border-bottom: #4a4a4a 6px solid;
   background-color: inherit;
 }
 
+a.navbar-a:active{
+  border-bottom: #4a4a4a 6px solid;
+  background-color: inherit;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: hsla(0, 0%, 20%, 0);
+}
 .dropdown {
   padding-right: 20px;
 }
