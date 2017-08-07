@@ -1,5 +1,6 @@
-  body {
+body {
   padding-top: 81px;
+  position: relative;
 }
 
 
@@ -50,10 +51,11 @@
   padding-right: 20px;
 }
 
-<<<<<<< HEAD=======.dropdown-content {
-  color: #333 !important;
+<<<<<<< HEAD
+=======
+.dropdown-content {
+  color:#333 !important;
 }
-
 
 /*===Carousel==*/
 
@@ -103,13 +105,11 @@
   -webkit-transform: scale(2);
 }
 
-
 /*Carousel-Control */
 
 a.left.carousel-control, a.right.carousel-control {
   max-height: 515px;
 }
-
 
 /*===Contact-Area===*/
 
@@ -138,33 +138,27 @@ span.glyphicon.glyphicon-envelope, span.glyphicon.glyphicon-pencil {
 
 button.btn.btn-primary {
   width: 100%;
-  cursor: pointer;
+  cursor:pointer;
 }
 
 .contact-divider {
   display: none;
 }
-
-/*===FEATURETTES===*/
-
-.thumbnail-featurettes {
-  max-height: 400px;
-  overflow: hidden;
-}
-
 /*===MEDIAQUERIES===*/
 
 @media only screen and (max-width: 1200px) {
   span.glyphicon.glyphicon-envelope, span.glyphicon.glyphicon-pencil {
     font-size: 70px;
   }
+
   .contact-divider {
-    display: block;
+    display:block;
   }
+
   @media only screen and (max-width: 550px) {
     span.glyphicon.glyphicon-envelope, span.glyphicon.glyphicon-pencil {
       font-size: 45px;
-      /*--
+  /*--
     Ich würde die Glyphicons gerne links neben der h2 haben,
     aber float breaks die contact-images...
       float: left; --*/
