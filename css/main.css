@@ -127,9 +127,10 @@ span.glyphicon.glyphicon-envelope, span.glyphicon.glyphicon-pencil {
 
 #freeCodeCamp {
   width: 100%;
-  height: 100%;
 }
 
 #codeSchool {
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
